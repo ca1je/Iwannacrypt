@@ -3,7 +3,7 @@
 支持支持多种常见的加解密方式，包括对称加密（AES、DES）、非对称加密（RSA）、哈希算法（MD5、SHA256、SM3）、编码方式（Base64、Hex、URL、Unicode）以及国密算法（SM2、SM4）。
 
 ## 使用方法
-python Iwannacrypt.py <algorithm> <mode> <data> [options]
+python Iwannacrypt.py \<algorithm\> \<mode\> \<data\> [options]
 
 ## 参数说明
 - <algorithm>：选择的加密/解密算法（base64, hex, url, unicode, md5, sha256, sm3, aes, des, rsa, sm2, sm4）。
