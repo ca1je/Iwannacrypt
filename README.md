@@ -6,9 +6,9 @@
 python Iwannacrypt.py \<algorithm\> \<mode\> \<data\> [options]
 
 ## 参数说明
-- <algorithm>：选择的加密/解密算法（base64, hex, url, unicode, md5, sha256, sm3, aes, des, rsa, sm2, sm4）。
-- <mode>：操作模式（encode, decode, encrypt, decrypt）。
-- <data>：需要加密、解密、编码或解码的数据。
+- \<algorithm\>：选择的加密/解密算法（base64, hex, url, unicode, md5, sha256, sm3, aes, des, rsa, sm2, sm4）。
+- \<mode\>：操作模式（encode, decode, encrypt, decrypt）。
+- \<data\>：需要加密、解密、编码或解码的数据。
 - [options]：
   - --key：加密/解密密钥（AES、DES、SM4 需要）。
   - --iv：AES 初始化向量（AES 需要）。
